@@ -155,4 +155,4 @@ def get_val_from_attrs(attr, *attr_val_pairs) :
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
-        print(get_pw_from_desc(sys.argv[1]))
+        print(get_pw_from_desc(" ".join(sys.argv[1:])))
