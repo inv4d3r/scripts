@@ -59,7 +59,7 @@ openssl
 # filesystems, archives, file sharing, file manipulation
 exfat-utils udiskie udisks2
 p7zip tar unrar unzip
-pv rsync tree 
+pv rsync tree
 
 # networking
 curl wget
@@ -67,23 +67,26 @@ networkmanager network-manager-applet networkmanager-openvpn nm-connection-edito
 openvpn wireless_tools wpa_supplicant
 
 # web, communication
-bitlbee irssi
+bitlbee irssi pidgin
 firefox qutebrowser w3m
 
-# mail
+# mail, rss
 mailcap
 mutt notmuch notmuch-mutt
 msmtp offlineimap
 thunderbird
+newsboat
 )
 
 aur_packages=(
+vgrep
 buku
 signal
 megasync
 periscope-git
 boostnote
 turtl
+urlview
 )
 
 function install_packages {
