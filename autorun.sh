@@ -7,9 +7,10 @@ function run {
   fi
 }
 
-#run pidgin
+run pidgin
 #run evolution
-#run firefox
-#run qutebrowser
+run firefox
+run qutebrowser
 #run boostnote
-#run spotify
+run spotify
+run megasync
